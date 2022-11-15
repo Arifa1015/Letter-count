@@ -1,0 +1,61 @@
+/* Write your code here. */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.app-container {
+  background-image: linear-gradient(to Right, #1d976c, #93f9b9);
+  display: flex;
+  flex-direction: row;
+  background-color: cover;
+  min-height: 100vh;
+}
+.inner-container {
+  display: flex;
+  flex-direction: row;
+}
+.image-logo {
+  height: 70vh;
+  margin-top: 110px;
+  margin-left: 130px;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 60px;
+}
+
+.heading {
+  color: #fff;
+  font-family: 'Roboto';
+  width: 16vw;
+  margin-bottom: 20px;
+}
+.para {
+  color: #fff;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.input-style {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  width: 18vw;
+  margin-bottom: 40px;
+  outline: none;
+  color: white;
+}
+.box-style {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  color: #219a6f;
+  font-size: 18px;
+  width: 13vw;
+  font-weight: bold;
+}
